@@ -14,7 +14,7 @@ const port = process.env.PORT || 3000;
 
 // Enable CORS for localhost:3001
 app.use(cors({
-  origin: 'http://localhost:3001', // Allow only this origin
+  origin: process.env.FRONTEND_URI, // Allow only this origin
 }));
 
 // Connect to the database
