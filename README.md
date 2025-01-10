@@ -18,8 +18,8 @@ The backend is built with Node.js and Express, using MongoDB for data storage.
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/crypto-stats.git
-   cd crypto-stats/backend
+   git clone https://github.com/Munna764592/crypto-stats.git
+   cd crypto-stats/server
    ```
 
 2. Install dependencies:
@@ -30,7 +30,7 @@ The backend is built with Node.js and Express, using MongoDB for data storage.
 3. Set up environment variables:
    Create a `.env` file in the backend directory with the following content:
    ```
-   PORT=3000
+   PORT=5000
    MONGODB_URI=your_mongodb_connection_string
    ```
 
@@ -52,7 +52,7 @@ The frontend is built with Next.js and uses Tailwind CSS for styling.
 
 1. Navigate to the frontend directory:
    ```
-   cd ../frontend
+   cd ../client
    ```
 
 2. Install dependencies:
