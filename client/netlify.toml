@@ -1,0 +1,18 @@
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[build]
+  command = "npm run build"
+  publish = ".next"
+  functions = "netlify-functions"
+
+[[redirects]]
+  from = "/_next/*"
+  to = "/_next/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/__/auth/*"
+  to = "/__/auth/:splat"
+  status = 200
+  force = true
